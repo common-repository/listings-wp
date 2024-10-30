@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "listingswp";
+  src: url("../fonts/icons.eot");
+  src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/icons.woff") format("woff"),
+       url("../fonts/icons.ttf") format("truetype"),
+       url("../fonts/icons.svg#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "listingswp";
+    src: url("../fonts/icons.svg#icons") format("svg");
+  }
+}
+
+[class^="lwp-icon-"]:before, [class*=" lwp-icon-"]:before,
+[class^="lwp-icon-"]:after, [class*=" lwp-icon-"]:after {   
+  font-family: listingswp;
+  font-size: 20px;
+  font-style: normal;
+  vertical-align: bottom;
+  line-height: 1.5;
+}
+[class^="lwp-icon-"], [class*=" lwp-icon-"] {   
+  display: inline-block;
+}
+
+.lwp-icon-car-1:before { font-size: 24px; }
+
+.lwp-icon-auction-1:before { content: "\f100"; }
+.lwp-icon-auction-2:before { content: "\f101"; }
+.lwp-icon-auction-3:before { content: "\f102"; }
+.lwp-icon-sold-1:before { content: "\f103"; }
+.lwp-icon-sold-2:before { content: "\f104"; }
+.lwp-icon-sold-3:before { content: "\f105"; }
+.lwp-icon-car-6:before { content: "\f106"; }
+.lwp-icon-car-2:before { content: "\f107"; }
+.lwp-icon-bed-1:before { content: "\f108"; }
+.lwp-icon-bed-3:before { content: "\f109"; }
+.lwp-icon-bed-4:before { content: "\f10a"; }
+.lwp-icon-car-1:before { content: "\f10b"; }
+.lwp-icon-old-phone:before { content: "\f10c"; }
+.lwp-icon-fax:before { content: "\f10d"; }
+.lwp-icon-bath-5:before { content: "\f10e"; }
+.lwp-icon-arrow-5:before { content: "\f10f"; }
+.lwp-icon-bath-6:before { content: "\f110"; }
+.lwp-icon-car-5:before { content: "\f111"; }
+.lwp-icon-bed-5:before { content: "\f112"; }
+.lwp-icon-arrow-2:before { content: "\f113"; }
+.lwp-icon-tick-2:before { content: "\f114"; }
+.lwp-icon-garbage:before { content: "\f115"; }
+.lwp-icon-next:before { content: "\f116"; }
+.lwp-icon-arrow-1:before { content: "\f117"; }
+.lwp-icon-tick-1:before { content: "\f118"; }
+.lwp-icon-arrow-4:before { content: "\f119"; }
+.lwp-icon-arrow-6:before { content: "\f11a"; }
+.lwp-icon-arrow-3:before { content: "\f11b"; }
+.lwp-icon-bath-4:before { content: "\f11c"; }
+.lwp-icon-car-3:before { content: "\f11d"; }
+.lwp-icon-arrow-7:before { content: "\f11e"; }
+.lwp-icon-youtube-logo:before { content: "\f11f"; }
+.lwp-icon-facebook-logo:before { content: "\f120"; }
+.lwp-icon-google-logo:before { content: "\f121"; }
+.lwp-icon-skype-logo:before { content: "\f122"; }
+.lwp-icon-twitter-logo:before { content: "\f123"; }
+.lwp-icon-linkedin-logo:before { content: "\f124"; }
+.lwp-icon-car-7:before { content: "\f125"; }
+.lwp-icon-list-view:before { content: "\f126"; }
+.lwp-icon-grid-view:before { content: "\f127"; }
+.lwp-icon-bath-3:before { content: "\f128"; }
+.lwp-icon-tick-4:before { content: "\f129"; }
+.lwp-icon-copy:before { content: "\f12a"; }
+.lwp-icon-heart:before { content: "\f12b"; }
+.lwp-icon-phone-call:before { content: "\f12c"; }
+.lwp-icon-envelope:before { content: "\f12d"; }
+.lwp-icon-bed-7:before { content: "\f12e"; }
+.lwp-icon-marker:before { content: "\f12f"; }
+.lwp-icon-phone:before { content: "\f130"; }
+.lwp-icon-email:before { content: "\f131"; }
+.lwp-icon-bath-2:before { content: "\f132"; }
+.lwp-icon-tick-7:before { content: "\f133"; }
+.lwp-icon-tick-5:before { content: "\f134"; }
+.lwp-icon-tick-6:before { content: "\f135"; }
+.lwp-icon-website:before { content: "\f136"; }
+.lwp-icon-tick-3:before { content: "\f137"; }
+.lwp-icon-car-4:before { content: "\f138"; }
+.lwp-icon-bed-2:before { content: "\f139"; }
+.lwp-icon-bath-7:before { content: "\f13a"; }
+.lwp-icon-bed-6:before { content: "\f13b"; }
+.lwp-icon-photo-camera:before { content: "\f13c"; }
+.lwp-icon-reload:before { content: "\f13d"; }
+.lwp-icon-chat:before { content: "\f13e"; }
+.lwp-icon-settings:before { content: "\f13f"; }
+.lwp-icon-like:before { content: "\f140"; }
+.lwp-icon-magnifying-glass:before { content: "\f141"; }
+.lwp-icon-download-1:before { content: "\f142"; }
+.lwp-icon-padlock:before { content: "\f143"; }
+.lwp-icon-link:before { content: "\f144"; }
+.lwp-icon-star:before { content: "\f145"; }
+.lwp-icon-edit:before { content: "\f146"; }
+.lwp-icon-pie-chart:before { content: "\f147"; }
+.lwp-icon-avatar-1:before { content: "\f148"; }
+.lwp-icon-download:before { content: "\f149"; }
+.lwp-icon-printer:before { content: "\f14a"; }
+.lwp-icon-avatar:before { content: "\f14b"; }
+.lwp-icon-house:before { content: "\f14c"; }
+.lwp-icon-cancel:before { content: "\f14d"; }
+.lwp-icon-bath-1:before { content: "\f14e"; }
+.lwp-icon-placeholder:before { content: "\f14f"; }

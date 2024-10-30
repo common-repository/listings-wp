@@ -1,0 +1,896 @@
+.listings-wp .container > .content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* apply a natural box layout model to all elements, but allowing components to change 
+should fix up some theme issues
+*/
+
+[class^="listings-wp-"],
+[class*=" listings-wp-"] {
+    box-sizing: border-box;
+}
+[class^="listings-wp-"]:before,
+[class*=" listings-wp-"]:before,
+[class^="listings-wp-"]:after,
+[class*=" listings-wp-"]:after {
+    box-sizing: inherit;
+}
+.listings-wp .sidebar {
+    display: inline-block;
+    margin-top: 30px;
+}
+.listings-wp-single .content {
+    display: inline-block;
+    width: 100%;
+}
+.listings-wp-single img {
+    height: auto;
+    max-width: 100%;
+}
+.listings-wp-single .title, .listings-wp-items .title {
+    text-align: left;
+}
+/* ======================================== SINGLE LISTING ========================================
+*/
+/* anti-spam fields - x 2 */
+
+#listings-wp-contact form .cmb2-id-url {
+    display: none;
+    visibility: hidden;
+}
+#listings-wp-contact form .cmb2-id-comment {
+    display: none;
+    visibility: hidden;
+}
+#listings-wp-contact form .form-table {
+    margin-bottom: 10px;
+}
+.listings-wp-single .type-listing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/**
+ * Image gallery ==============================================
+ */
+
+.listings-wp-single .image-gallery {
+    margin-bottom: 30px;
+}
+.listings-wp-single .image-gallery .lSPager.lSGallery li {
+    transition: 0.25s;
+}
+.listings-wp-single .image-gallery .lSPager.lSGallery li.active,
+.listings-wp-single .image-gallery .lSPager.lSGallery li:hover {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    padding: 2px;
+}
+.listings-wp-single .image-gallery .prev:before,
+.listings-wp-single .image-gallery .next:before {
+    color: #fff;
+    font-size: 30px;
+}
+.listings-wp-single .image-gallery .prev {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.listings-wp-single .image-gallery .lSSlideWrapper .lightSlider > * {
+    z-index: 1;
+}
+.listings-wp-single .image-gallery .active {
+    z-index: 2;
+}
+.lg-icon, .lg-icon:before, .lg-icon:after {
+    font-family: listingswp;
+}
+.lg-actions .lg-next:before {
+    content: "\f12b";
+}
+.lg-actions .lg-prev:after {
+    content: "\f12b";
+}
+.lg-actions .lg-prev {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.lg-toolbar .lg-close:after {
+  content: "\f118";
+}
+.lg-toolbar .lg-download:after {
+  content: "\f117";
+}
+/**
+ * Sidebar ==============================================
+ */
+
+.listings-wp-single .sidebar > div {
+    margin-bottom: 30px;
+}
+.listings-wp-single .sidebar > div.address {
+    margin-bottom: 10px;
+}
+.listings-wp-single .agent .avatar-wrap,
+.listings-wp-single .agent .image {
+    float: left;
+    margin: 5px 20px 10px 0;
+    max-width: 25%
+}
+.listings-wp-single .agent {
+    display: block;
+}
+.listings-wp-single .agent h4.name {
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
+}
+.listings-wp-single .sidebar .agent ul.contact {
+    display: inline-block;
+    float: left;
+    width: 60%;
+}
+.listings-wp .sidebar .contact * {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.listings-wp .sidebar .contact *:hover {
+    white-space: normal;
+    overflow: auto;
+    text-overflow: unset;
+}
+.listings-wp-single ul.contact {
+    list-style: outside none none;
+    margin: 5px 0 20px;
+    padding: 0;
+    display: inline-block;
+}
+.listings-wp-single ul.contact li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  width: 100%;
+}
+.listings-wp-single ul.contact li i:before {
+    font-size: 17px;
+    margin: 0 15px 0 0;
+}
+.listings-wp .sidebar .contact li,
+.listings-wp .sidebar .contact li i {
+    display: inline;
+    vertical-align: middle;
+    float: left;
+}
+/**
+ * Summary area ==============================================
+ */
+
+.listings-wp-single .price {
+    color: #26a0f2;
+    line-height: 38px;
+}
+.listings-wp-single .glance {
+    display: inline-block;
+    float: left;
+    width: auto;
+    line-height: 30px;
+}
+.listings-wp-single .glance > div {
+    float: left;
+    margin: 0 30px 0 0;
+    vertical-align: middle;
+}
+.listings-wp-single .glance .count {
+    margin-right: 7px;
+}
+.listings-wp-single .address {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 5px 0;
+    padding: 5px 0;
+    font-weight: 600;
+}
+.listings-wp-single .sizes {
+    display: inline-block;
+    width: auto;
+    line-height: 30px;
+}
+.listings-wp-single .sizes > div {
+    float: left;
+    margin: 0 30px 0 0;
+}
+.listings-wp-single .open-times {
+    background: #eee none repeat scroll 0 0;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 100%;
+}
+.listings-wp-single .open-times h4 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.listings-wp-single .open-times ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.listings-wp-single .map {
+  background: #fff none repeat scroll 0 0;
+  height: 300px;
+  overflow: visible;
+  width: 100%;
+}
+.listings-wp-single .tagline {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.listings-wp-single .description {
+    margin-bottom: 30px;
+}
+.listings-wp-single .int-features ul,
+.listings-wp-single .ext-features ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style: none;
+    padding: 0;
+}
+.listings-wp-single .int-features [class^="lwp-icon-"]:before,
+.listings-wp-single .int-features [class*=" lwp-icon-"]:before,
+.listings-wp-single .ext-features [class^="lwp-icon-"]:before,
+.listings-wp-single .ext-features [class*=" lwp-icon-"]:before {
+    margin-right: 10px;
+}
+.listings-wp-single .ext-features {
+    float: right;
+}
+.listings-wp-single .bottom {
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+}
+/* ======================================== LOOP LISTINGs ========================================
+*/
+
+.listings-wp-items * {
+    transition: 0.3s
+}
+.listings-wp-items {
+    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+}
+.listings-wp-items.list-view {
+    margin: 0;
+}
+.listings-wp-items li {
+    display: inline-block;
+    margin: 0 0 25px;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+.listings-wp-items li .image {
+    float: left;
+    width: 25%;
+    transition: 0s;
+    position: relative;
+}
+.listings-wp-items li .image img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+.listings-wp-items li .status {
+  background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+  bottom: 20px;
+  color: #222;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 3px 10px;
+  position: absolute;
+}
+.listings-wp-items li .status i {
+  display: inline-block;
+  padding: 0;
+}
+.listings-wp-items li .status i:before {
+  display: block;
+  font-size: 16px;
+  margin: 0 5px 0 0;
+}
+.listings-wp-items li .summary {
+    float: right;
+    width: 70%;
+    text-align: left;
+}
+.listings-wp-items li .title {
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.listings-wp-items li .price {
+    color: #26a0f2;
+}
+.listings-wp-items li .address {
+    margin: 3px 0 5px;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.listings-wp-items li .glance {
+    display: inline-block;
+    width: 100%;
+}
+.listings-wp-items li .glance > div {
+    float: left;
+    line-height: 30px;
+    margin: 0 30px 0 0;
+    vertical-align: middle;
+}
+.listings-wp-items li .glance .count {
+    margin-right: 7px;
+}
+/* Grid view */
+
+.listings-wp-items.grid-view {
+    display: inline-block;
+    width: 100%;
+}
+.listings-wp-items.grid-view li {
+    display: inline-block;
+    margin: 0 0 30px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+.listings-wp-items.grid-view li .image {
+    float: none;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.listings-wp-items.grid-view li .summary {
+    float: none;
+    width: auto;
+}
+.listings-wp-items.grid-view li.col-2 {
+    width: 50%;
+}
+.listings-wp-items.grid-view li.col-4 {
+    width: 25%;
+}
+/* ======================================== SORTING, SWITCHING & PAGINATION ========================================
+*/
+
+.listings-wp-ordering {
+    float: left;
+    margin-bottom: 40px;
+}
+.listings-wp-view-switcher {
+    float: left;
+    margin: 0 0 40px 30px;
+}
+.listings-wp-view-switcher > div {
+    float: left;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+.listings-wp-view-switcher i:before {
+    font-size: 26px;
+}
+.listings-wp-pagination {
+    float: right;
+    margin-bottom: 40px;
+}
+.listings-wp-pagination ul {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.listings-wp-pagination ul li {
+    float: left;
+    margin: 0 0 0 -2px;
+}
+.listings-wp-pagination ul li span.current {
+    cursor: not-allowed;
+}
+.listings-wp-pagination ul li span,
+.listings-wp-pagination ul li a {
+    font-size: 100% !important;
+    line-height: 1;
+    padding: 0.5em 0.75em;
+    border: 2px solid #eee;
+}
+.listings-wp-pagination ul li a.prev,
+.listings-wp-pagination ul li a.next {
+    border-radius: 0px;
+    font-size: 100%;
+    line-height: 1;
+    padding: 0.5em 0.6em;
+}
+/* ======================================== SEARCH ========================================
+*/
+
+.listings-wp-search-form {
+    margin: 0 0 30px;
+    width: 100%;
+    padding: 10px;
+    background: #eee;
+    display: inline-block;
+}
+.listings-wp-search-form > div {
+    float: left;
+    margin: 5px 0;
+    padding: 0 3px;
+    width: 100%;
+}
+/* keyword and button */
+
+.listings-wp-search-form > div.form-group {
+    width: 100%;
+}
+.listings-wp-search-form .search-input {
+    width: 70%;
+    float: left;
+    padding: 0.7em 1em;
+    font-size: 15px;
+    height: auto;
+    margin: 0;
+}
+.listings-wp-search-form .search-button {
+    float: right;
+    width: 28%;
+    text-align: center;
+    padding: 0.65em 0;
+    margin: 0;
+    font-size: 15px;
+    height: auto;
+    line-height: unset;
+}
+/* keyword and button with buy/sell dropdown */
+
+.listings-wp-search-form .purpose-wrap {
+    margin-bottom: 10px;
+}
+.listings-wp-search-form .purpose-wrap .select-wrap select {
+    padding: 0.8em 0.3em 0.7em;
+}
+/* ======================================== SINGLE AGENT ========================================
+*/
+
+.listings-wp-single.agent .avatar-wrap {
+    background: #eee none repeat scroll 0 0;
+    float: left;
+    margin: 5px 30px 30px 0;
+    padding: 4px;
+}
+.listings-wp-single.agent .name {
+    display: inline-block;
+}
+.listings-wp-single.agent .position {
+    font-weight: 600;
+}
+.listings-wp-single.agent .contact {
+    list-style: outside none none;
+    padding: 0;
+    margin: 0;
+}
+.listings-wp-single.agent .social {
+    list-style: none;
+    padding: 5px 0 0 0;
+    margin: 0;
+    display: block;
+}
+.listings-wp-single.agent .social li {
+    float: left;
+    margin: 0 5px 0 0;
+}
+.listings-wp-single.agent .social .facebook i {
+    color: #3b5998;
+}
+.listings-wp-single.agent .social .google i {
+    color: #dd4b39;
+}
+.listings-wp-single.agent .social .twitter i {
+    color: #00aced;
+}
+.listings-wp-single.agent .social .skype i {
+    color: #00AFF0;
+}
+.listings-wp-single.agent .social .linkedin i {
+    color: #007bb6;
+}
+.listings-wp-single.agent .social .youtube i {
+    color: #bb0000;
+}
+/* ======================================== LISTINGS COMPACT MODE ========================================
+*/
+
+.listings-wp-items li.compact .image {
+    width: 25%;
+    margin: 0 5% 0 0;
+}
+.listings-wp-items li.compact .status {
+    display: none;
+}
+.listings-wp-items li.compact .summary {
+    float: left;
+    width: 69%;
+}
+.listings-wp-items li.compact .title {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+.listings-wp-items li.compact .address {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.listings-wp-items li.compact .price {
+    line-height: 20px;
+    font-size: 15px;
+}
+.listings-wp-items li.compact .address {
+    border-bottom: medium none;
+    border-top: medium none;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+/* ======================================== SELECTS ========================================
+*/
+/* These are the "theme" styles for our button applied via separate button class, style as you like */
+/* Set the background fallback to solid #fff so Firefox renders the <option> list readably. */
+
+.select-wrap {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+    background: #f3f3f3;
+    /* Old browsers */
+    
+    background: #fff -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 100%);
+    /* FF3.6+ */
+    
+    background: #fff -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f3f3f3));
+    /* Chrome,Safari4+ */
+    
+    background: #fff -webkit-linear-gradient(top, #ffffff 0%, #f3f3f3 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: #fff -o-linear-gradient(top, #ffffff 0%, #f3f3f3 100%);
+    /* Opera 11.10+ */
+    
+    background: #fff -ms-linear-gradient(top, #ffffff 0%, #f3f3f3 100%);
+    /* IE10+ */
+    
+    background: #fff linear-gradient(to bottom, #ffffff 0%, #f3f3f3 100%);
+    /* W3C */
+}
+.select-wrap {
+    margin-top: 0px;
+}
+.select-wrap select {
+    /* General select styles: change as needed */
+    height: auto;
+    font-family: sans-serif;
+    line-height: 1.3;
+    border-radius: .2em;
+}
+.select-wrap::after {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 7px solid #666;
+    margin-top: -3px;
+}
+.select-wrap {
+    border: 1px solid #eee;
+}
+/* Hover style */
+
+.select-wrap:hover {
+    border-color: #888;
+}
+/* Focus style */
+
+.select-wrap select:focus {
+    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+    
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .2);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    /* Match-02 */
+}
+@supports ( box-shadow: none) {
+    .select-wrap select:focus {
+        outline: none;
+    }
+}
+/* Set options to normal weight */
+
+.select-wrap option {
+    font-weight: normal;
+}
+/* Container used for styling the custom select, the buttom class below adds the
+ * bg gradient, corners, etc. */
+
+.select-wrap {
+    position: relative;
+    display: block;
+}
+/* This is the native select, we're making everything but the text invisible so
+ * we can see the button styles in the wrapper */
+
+.select-wrap select {
+    width: 100%;
+    margin: 0;
+    outline: none;
+    padding: 0.5em 0.3em 0.4em;
+    /* Prefixed box-sizing rules necessary for older browsers */
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* Font size must be 16px to prevent iOS page zoom on focus */
+    
+    font-size: 15px;
+}
+/* Custom arrow sits on top of the select - could be an image, SVG, icon font,
+ * etc. or the arrow could just baked into the bg image on the select. */
+
+.select-wrap::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 0.7em;
+    z-index: 2;
+    /* These hacks make the select behind the arrow clickable in some browsers */
+    
+    pointer-events: none;
+    display: none;
+}
+@supports ( -webkit-appearance: none) or ( appearance: none)
+/* Firefox <= 34 has a false positive on @supports( -moz-appearance: none )
+   * @supports ( mask-type: alpha ) is Firefox 35+
+   */
+
+or ( ( -moz-appearance: none) and ( mask-type: alpha)) {
+    /* Show custom arrow */
+    
+    .select-wrap::after {
+        display: block;
+    }
+    /* Remove select styling */
+    
+    .select-wrap select {
+        padding-right: 1.7em;
+        /* Match-01 */
+        /* inside @supports so that iOS <= 8 display the native arrow */
+        
+        background: none;
+        /* Match-04 */
+        /* inside @supports so that Android <= 4.3 display the native arrow */
+        
+        border: 1px solid transparent;
+        /* Match-05 */
+        
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .select-wrap select:focus {
+        border-color: #aaa;
+        /* Match-03 */
+    }
+}
+/* Adds Firefox < 35 support */
+/* FIREFOX won't let us hide the native select arrow, so we have to make it wider than needed and clip it via overflow on the parent container. The percentage width is a fallback since FF 4+ supports calc() so we can just add a fixed amount of extra width to push the native arrow out of view. We're applying this hack across all FF versions because all the previous hacks were too fragile and complex. You might want to consider not using this hack and using the native select arrow in FF. Note this makes the menus wider than the select button because they display at the specified width and aren't clipped. Targeting hack via http://browserhacks.com/#hack-758bff81c5c32351b02e10480b5ed48e */
+/* Show only the native arrow */
+
+@-moz-document url-prefix() {
+    /* Warning: this kills the focus outline style */
+    
+    .select-wrap {
+        overflow: hidden;
+    }
+    .select-wrap::after {
+        display: block;
+    }
+    /* Make the native select extra wide so the arrow is clipped. 1.5em seems to be enough to safely clip it */
+    
+    .select-wrap select {
+        overflow: -moz-hidden-unscrollable;
+        padding-right: .4em;
+        background: none;
+        /* Match-04 */
+        
+        border: 1px solid transparent;
+        /* Match-05 */
+        /* Firefox < 4 */
+        
+        min-width: 6em;
+        width: 130%;
+        /* Firefox 4-15 */
+        
+        min-width: -moz-calc(0em);
+        width: -moz-calc(100% + 2.4em);
+        /* Firefox 16+ */
+        
+        min-width: calc(0em);
+        width: calc(100% + 2.4em);
+    }
+    /* Firefox 35+ that supports hiding the native select can have a proper 100% width, no need for the overflow clip trick */
+    
+    @supports ( mask-type: alpha) {
+        .select-wrap {
+            overflow: visible;
+        }
+        .select-wrap select {
+            -moz-appearance: none;
+            width: 100%;
+            padding-right: 1.7em;
+            /* Match-01 padding-right */
+        }
+    }
+}
+/* Firefox focus has odd artifacts around the text, this kills that. See https://developer.mozilla.org/en-US/docs/Web/CSS/:-moz-focusring */
+
+.select-wrap select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+/* IE 10/11+ - This hides native dropdown button arrow so it will have the custom appearance. Targeting media query hack via http://browserhacks.com/#hack-28f493d247a12ab654f6c3637f6978d5 - looking for better ways to achieve this targeting */
+/* The second rule removes the odd blue bg color behind the text in the select button in IE 10/11 and sets the text color to match the focus style's - fix via http://stackoverflow.com/questions/17553300/change-ie-background-color-on-unopened-focused-select-box */
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .select-wrap select::-ms-expand {
+        display: none;
+    }
+    .select-wrap select:focus {
+        border-color: #aaa;
+        /* Match-03 */
+    }
+    .select-wrap select:focus::-ms-value {
+        background: transparent;
+        color: #222;
+        /* Match-02*/
+    }
+    .select-wrap select {
+        padding-right: 1.7em;
+        /* Match-01 */
+        
+        background: none;
+        /* Match-04 */
+        
+        border: 1px solid transparent;
+        /* Match-05 */
+    }
+    .select-wrap::after {
+        display: block;
+    }
+}
+/* ======================================== MEDIA QUERIES ========================================
+*/
+
+@media (min-width: 700px) {
+    .listings-wp-search-form.fields-10 > div {
+        width: 10%;
+    }
+    .listings-wp-search-form.fields-9 > div {
+        width: 11.1111%;
+    }
+    .listings-wp-search-form.fields-8 > div {
+        width: 12.5%;
+    }
+    .listings-wp-search-form.fields-7 > div {
+        width: 14.2857%;
+    }
+    .listings-wp-search-form.fields-6 > div {
+        width: 16.6667%;
+    }
+    .listings-wp-search-form.fields-5 > div {
+        width: 20%;
+    }
+    .listings-wp-search-form.fields-4 > div {
+        width: 25%;
+    }
+    .listings-wp-search-form.fields-3 > div {
+        width: 33.3333%;
+    }
+    .listings-wp-search-form.fields-2 > div {
+        width: 50%;
+    }
+    .listings-wp-search-form.fields-1 > div {
+        width: 100%;
+    }
+    .listings-wp-search-form > div.form-group {
+        width: 100%;
+    }
+    .listings-wp-search-form.display-both .purpose-wrap {
+        float: left;
+        margin-right: 2%;
+        min-width: 64px;
+        width: 10%;
+    }
+    .listings-wp-search-form .search-input {
+        width: auto;
+        min-width: 55%;
+    }
+    .listings-wp-search-form .search-button {
+        width: 20%;
+    }
+    .listings-wp-items.grid-view {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .listings-wp-items.grid-view li {
+        float: left;
+        margin: 0 0 30px;
+        width: 33.3333%;
+        padding: 0 10px;
+    }
+}
+@media (min-width: 768px) {
+    .listings-wp .main-wrap {
+        float: left;
+        margin-right: 6%;
+        width: 64%;
+    }
+    .listings-wp .sidebar {
+        margin: 0;
+        float: right;
+        width: 30%
+    }
+    .listings-wp-search-form {
+        padding: 20px;
+    }
+    .listings-wp-items li .image {
+        width: 36%;
+    }
+    .listings-wp-items li .address {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        margin: 5px 0;
+        padding: 5px 0;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    .listings-wp-items li .price {
+        line-height: 38px;
+    }
+    .listings-wp-items li .title {
+        margin-bottom: 5px;
+    }
+    .listings-wp-items li .summary {
+        width: 60%;
+    }
+    .listings-wp-single .int-features,
+    .listings-wp-single .ext-features {
+        width: 48%;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    .listings-wp-single .ext-features {
+        float: right;
+    }
+    .listings-wp-search-form .search-input {
+        width: 66%;
+    }
+}

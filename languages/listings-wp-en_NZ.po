@@ -1,0 +1,1772 @@
+# Copyright (C) 2017 Listings WP
+# This file is distributed under the same license as the Listings WP package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Listings WP 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/listings-wp\n"
+"POT-Creation-Date: 2017-05-15 16:12+1000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-05-15 16:19+1000\n"
+"X-Generator: Poedit 1.8.6\n"
+"Language-Team: \n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_NZ\n"
+
+#: includes/admin/class-lwp-admin-agent-columns.php:41
+#: includes/admin/class-lwp-admin-options.php:10
+#: includes/class-lwp-post-types.php:66
+msgid "Listings"
+msgstr "Listings"
+
+#: includes/admin/class-lwp-admin-agent-columns.php:42
+msgid "Mobile"
+msgstr "Mobile"
+
+#: includes/admin/class-lwp-admin-agent-columns.php:43
+#: includes/class-lwp-agent.php:36
+msgid "Office Phone"
+msgstr "Office Phone"
+
+#: includes/admin/class-lwp-admin-enquiry-columns.php:72
+#: includes/admin/class-lwp-admin-options.php:9
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:37
+#: includes/class-lwp-post-types.php:66
+msgid "Listing"
+msgstr "Listing"
+
+#: includes/admin/class-lwp-admin-enquiry-columns.php:73
+#: includes/admin/class-lwp-admin-listing-columns.php:74
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:594
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:613
+msgid "Agent"
+msgstr "Agent"
+
+#: includes/admin/class-lwp-admin-enquiry-columns.php:74
+msgid "From Name"
+msgstr "From Name"
+
+#: includes/admin/class-lwp-admin-enquiry-columns.php:75
+msgid "From Email"
+msgstr "From Email"
+
+#: includes/admin/class-lwp-admin-enquiry-columns.php:193
+#: includes/admin/class-lwp-admin-listing-columns.php:251
+msgid "Show all %s"
+msgstr "Show all %s"
+
+#: includes/admin/class-lwp-admin-listing-columns.php:72
+#: includes/admin/class-lwp-admin-options.php:341
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:155
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/class-lwp-admin-listing-columns.php:73
+#: includes/admin/class-lwp-admin-options.php:293
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:148
+msgid "Type"
+msgstr "Type"
+
+#: includes/admin/class-lwp-admin-listing-columns.php:75
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:163
+msgid "Purpose"
+msgstr "Purpose"
+
+#: includes/admin/class-lwp-admin-listing-columns.php:76
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:130
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:609
+msgid "Price"
+msgstr "Price"
+
+#: includes/admin/class-lwp-admin-listing-columns.php:77
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:610
+msgid "Address"
+msgstr "Address"
+
+#: includes/admin/class-lwp-admin-listing-columns.php:80
+#: includes/class-lwp-post-types.php:108
+msgid "Enquiries"
+msgstr "Enquiries"
+
+#: includes/admin/class-lwp-admin-listing-columns.php:81
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/class-lwp-admin-listing-menu.php:33
+msgid "Agents"
+msgstr "Agents"
+
+#: includes/admin/class-lwp-admin-options.php:39
+msgid "%s"
+msgstr "%s"
+
+#: includes/admin/class-lwp-admin-options.php:98
+msgid "Price Format"
+msgstr "Price Format"
+
+#: includes/admin/class-lwp-admin-options.php:102
+msgid "Currency Position"
+msgstr "Currency Position"
+
+#: includes/admin/class-lwp-admin-options.php:107
+msgid "Left ($100)"
+msgstr "Left ($100)"
+
+#: includes/admin/class-lwp-admin-options.php:108
+msgid "Right (100$)"
+msgstr "Right (100$)"
+
+#: includes/admin/class-lwp-admin-options.php:109
+msgid "Left with space ($ 100)"
+msgstr "Left with space ($ 100)"
+
+#: includes/admin/class-lwp-admin-options.php:110
+msgid "Right with space (100 $)"
+msgstr "Right with space (100 $)"
+
+#: includes/admin/class-lwp-admin-options.php:114
+msgid "Currency Symbol"
+msgstr "Currency Symbol"
+
+#: includes/admin/class-lwp-admin-options.php:121
+msgid "Thousand Separator"
+msgstr "Thousand Separator"
+
+#: includes/admin/class-lwp-admin-options.php:128
+msgid "Include Decimals"
+msgstr "Include Decimals"
+
+#: includes/admin/class-lwp-admin-options.php:133
+msgid "No, do not include decimals in price"
+msgstr "No, do not include decimals in price"
+
+#: includes/admin/class-lwp-admin-options.php:134
+msgid "Yes, include decimals in price"
+msgstr "Yes, include decimals in price"
+
+#: includes/admin/class-lwp-admin-options.php:139
+msgid "Decimal Separator"
+msgstr "Decimal Separator"
+
+#: includes/admin/class-lwp-admin-options.php:146
+msgid "Number of Decimals"
+msgstr "Number of Decimals"
+
+#: includes/admin/class-lwp-admin-options.php:158
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: includes/admin/class-lwp-admin-options.php:162
+msgid "API Key"
+msgstr "API Key"
+
+#: includes/admin/class-lwp-admin-options.php:163
+msgid ""
+"A Google Maps API Key is required and you can get yours %s Once you have the "
+"key, simply paste it in here."
+msgstr ""
+"A Google Maps API Key is required and you can get yours %s Once you have the "
+"key, simply paste it in here."
+
+#: includes/admin/class-lwp-admin-options.php:168
+msgid "Map Zoom"
+msgstr "Map Zoom"
+
+#: includes/admin/class-lwp-admin-options.php:178
+msgid "Map Height"
+msgstr "Map Height"
+
+#: includes/admin/class-lwp-admin-options.php:194
+#: includes/class-lwp-search.php:85
+msgid "Search"
+msgstr "Search"
+
+#: includes/admin/class-lwp-admin-options.php:198
+msgid "Distance Measurement"
+msgstr "Distance Measurement"
+
+#: includes/admin/class-lwp-admin-options.php:199
+msgid "Choose miles or kilometers for the radius."
+msgstr "Choose miles or kilometers for the radius."
+
+#: includes/admin/class-lwp-admin-options.php:203
+msgid "Miles"
+msgstr "Miles"
+
+#: includes/admin/class-lwp-admin-options.php:204
+msgid "Kilometers"
+msgstr "Kilometers"
+
+#: includes/admin/class-lwp-admin-options.php:209
+msgid "Radius"
+msgstr "Radius"
+
+#: includes/admin/class-lwp-admin-options.php:210
+msgid ""
+"Show listings that are within this distance (mi or km as selected above)."
+msgstr ""
+"Show listings that are within this distance (mi or km as selected above)."
+
+#: includes/admin/class-lwp-admin-options.php:220
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:537
+msgid "Country"
+msgstr "Country"
+
+#: includes/admin/class-lwp-admin-options.php:221
+msgid "Country name or two letter %s country code."
+msgstr "Country name or two letter %s country code."
+
+#: includes/admin/class-lwp-admin-options.php:222
+msgid ""
+"This limits radius search results when using the [listings_wp_search] "
+"shortcode."
+msgstr ""
+"This limits radius search results when using the [listings_wp_search] "
+"shortcode."
+
+#: includes/admin/class-lwp-admin-options.php:239
+msgid "Listing Setup"
+msgstr "Listing Setup"
+
+#: includes/admin/class-lwp-admin-options.php:243
+msgid "Rent / Sell"
+msgstr "Rent / Sell"
+
+#: includes/admin/class-lwp-admin-options.php:244
+msgid "Are your listings only for rent or only for sale? Or both?"
+msgstr "Are your listings only for rent or only for sale? Or both?"
+
+#: includes/admin/class-lwp-admin-options.php:249
+msgid "Both"
+msgstr "Both"
+
+#: includes/admin/class-lwp-admin-options.php:250
+msgid "Rent Only"
+msgstr "Rent Only"
+
+#: includes/admin/class-lwp-admin-options.php:251
+msgid "Sell Only"
+msgstr "Sell Only"
+
+#: includes/admin/class-lwp-admin-options.php:255
+msgid "Default Listing Type"
+msgstr "Default Listing Type"
+
+#: includes/admin/class-lwp-admin-options.php:256
+msgid ""
+"If the above is set to \"Both\", which type would you like displayed as the "
+"default on the listings page?"
+msgstr ""
+"If the above is set to \"Both\", which type would you like displayed as the "
+"default on the listings page?"
+
+#: includes/admin/class-lwp-admin-options.php:260
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:168
+msgid "Sell"
+msgstr "Sell"
+
+#: includes/admin/class-lwp-admin-options.php:261
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:169
+#: includes/class-lwp-search.php:118
+msgid "Rent"
+msgstr "Rent"
+
+#: includes/admin/class-lwp-admin-options.php:265
+msgid "Listings Page"
+msgstr "Listings Page"
+
+#: includes/admin/class-lwp-admin-options.php:266
+msgid "The main page to display your listings."
+msgstr "The main page to display your listings."
+
+#: includes/admin/class-lwp-admin-options.php:267
+#: includes/admin/class-lwp-admin-options.php:276
+msgid "Please visit %s if this options is changed."
+msgstr "Please visit %s if this options is changed."
+
+#: includes/admin/class-lwp-admin-options.php:274
+msgid "Single Listing URL"
+msgstr "Single Listing URL"
+
+#: includes/admin/class-lwp-admin-options.php:275
+msgid "The single listing URL (or slug)."
+msgstr "The single listing URL (or slug)."
+
+#: includes/admin/class-lwp-admin-options.php:289
+msgid "%s Types"
+msgstr "%s Types"
+
+#: includes/admin/class-lwp-admin-options.php:294
+msgid "House, Townhouse, Unit, Land, Rural, Commercial etc."
+msgstr "House, Townhouse, Unit, Land, Rural, Commercial etc."
+
+#: includes/admin/class-lwp-admin-options.php:294
+msgid "Users can search by different Types when using the advanced search box."
+msgstr ""
+"Users can search by different Types when using the advanced search box."
+
+#: includes/admin/class-lwp-admin-options.php:299
+msgid "Add Type"
+msgstr "Add Type"
+
+#: includes/admin/class-lwp-admin-options.php:308
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:264
+msgid "%s Features"
+msgstr "%s Features"
+
+#: includes/admin/class-lwp-admin-options.php:312
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:315
+#: templates/single-listing/internal-features.php:18
+msgid "Internal Features"
+msgstr "Internal Features"
+
+#: includes/admin/class-lwp-admin-options.php:313
+msgid "Internal Features such as Open Fireplace, Gas Heating, Dishwasher etc."
+msgstr "Internal Features such as Open Fireplace, Gas Heating, Dishwasher etc."
+
+#: includes/admin/class-lwp-admin-options.php:318
+#: includes/admin/class-lwp-admin-options.php:328
+msgid "Add Feature"
+msgstr "Add Feature"
+
+#: includes/admin/class-lwp-admin-options.php:322
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:321
+#: templates/single-listing/external-features.php:18
+msgid "External Features"
+msgstr "External Features"
+
+#: includes/admin/class-lwp-admin-options.php:323
+msgid "External Features such as Balcony, Shed, Outdoor Entertaining etc."
+msgstr "External Features such as Balcony, Shed, Outdoor Entertaining etc."
+
+#: includes/admin/class-lwp-admin-options.php:337
+msgid "%s Statuses"
+msgstr "%s Statuses"
+
+#: includes/admin/class-lwp-admin-options.php:342
+msgid ""
+"Sold, Under Offer, Auction etc.<br>Statuses will appear as text over the "
+"listing image."
+msgstr ""
+"Sold, Under Offer, Auction etc.<br>Statuses will appear as text over the "
+"listing image."
+
+#: includes/admin/class-lwp-admin-options.php:347
+msgid "Add Status"
+msgstr "Add Status"
+
+#: includes/admin/class-lwp-admin-options.php:361
+msgid "Columns"
+msgstr "Columns"
+
+#: includes/admin/class-lwp-admin-options.php:365
+msgid "Number of Columns"
+msgstr "Number of Columns"
+
+#: includes/admin/class-lwp-admin-options.php:366
+msgid ""
+"The number of columns to display on the archive page, when viewing listings "
+"in grid mode."
+msgstr ""
+"The number of columns to display on the archive page, when viewing listings "
+"in grid mode."
+
+#: includes/admin/class-lwp-admin-options.php:371
+msgid "2 Column"
+msgstr "2 Column"
+
+#: includes/admin/class-lwp-admin-options.php:372
+msgid "3 Column"
+msgstr "3 Column"
+
+#: includes/admin/class-lwp-admin-options.php:373
+msgid "4 Column"
+msgstr "4 Column"
+
+#: includes/admin/class-lwp-admin-options.php:383
+msgid "Gallery Settings"
+msgstr "Gallery Settings"
+
+#: includes/admin/class-lwp-admin-options.php:388
+msgid "Auto Slide Images"
+msgstr "Auto Slide Images"
+
+#: includes/admin/class-lwp-admin-options.php:389
+msgid "Should images start to slide automatically?"
+msgstr "Should images start to slide automatically?"
+
+#: includes/admin/class-lwp-admin-options.php:399
+msgid "Transition Delay"
+msgstr "Transition Delay"
+
+#: includes/admin/class-lwp-admin-options.php:400
+msgid "The time (in ms) between each auto transition"
+msgstr "The time (in ms) between each auto transition"
+
+#: includes/admin/class-lwp-admin-options.php:410
+msgid "Transition Duration"
+msgstr "Transition Duration"
+
+#: includes/admin/class-lwp-admin-options.php:411
+msgid "Transition duration (in ms)"
+msgstr "Transition duration (in ms)"
+
+#: includes/admin/class-lwp-admin-options.php:421
+msgid "Thumbnails Shown"
+msgstr "Thumbnails Shown"
+
+#: includes/admin/class-lwp-admin-options.php:422
+msgid "Number of thumbnails shown below main image"
+msgstr "Number of thumbnails shown below main image"
+
+#: includes/admin/class-lwp-admin-options.php:432
+msgid "Transition Type"
+msgstr "Transition Type"
+
+#: includes/admin/class-lwp-admin-options.php:433
+msgid "Should images slide or fade?"
+msgstr "Should images slide or fade?"
+
+#: includes/admin/class-lwp-admin-options.php:450
+msgid "Icons"
+msgstr "Icons"
+
+#: includes/admin/class-lwp-admin-options.php:454
+msgid "Tick Icon"
+msgstr "Tick Icon"
+
+#: includes/admin/class-lwp-admin-options.php:455
+msgid ""
+"The icon to show next to each feature on the External & Internal Feature "
+"list."
+msgstr ""
+"The icon to show next to each feature on the External & Internal Feature "
+"list."
+
+#: includes/admin/class-lwp-admin-options.php:467
+msgid "No Icon"
+msgstr "No Icon"
+
+#: includes/admin/class-lwp-admin-options.php:471
+msgid "Arrow Icon"
+msgstr "Arrow Icon"
+
+#: includes/admin/class-lwp-admin-options.php:472
+msgid "The icon for the prev & next arrows on the gallery."
+msgstr "The icon for the prev & next arrows on the gallery."
+
+#: includes/admin/class-lwp-admin-options.php:487
+msgid "Bedroom Icon"
+msgstr "Bedroom Icon"
+
+#: includes/admin/class-lwp-admin-options.php:488
+msgid "The icon to show number of bedrooms."
+msgstr "The icon to show number of bedrooms."
+
+#: includes/admin/class-lwp-admin-options.php:500
+msgid "No Icon, use word \"Bedroom\" instead"
+msgstr "No Icon, use word \"Bedroom\" instead"
+
+#: includes/admin/class-lwp-admin-options.php:504
+msgid "Bathroom Icon"
+msgstr "Bathroom Icon"
+
+#: includes/admin/class-lwp-admin-options.php:505
+msgid "The icon to show number of bathrooms."
+msgstr "The icon to show number of bathrooms."
+
+#: includes/admin/class-lwp-admin-options.php:517
+msgid "No Icon, use word \"Bathroom\" instead"
+msgstr "No Icon, use word \"Bathroom\" instead"
+
+#: includes/admin/class-lwp-admin-options.php:521
+msgid "Car Spaces Icon"
+msgstr "Car Spaces Icon"
+
+#: includes/admin/class-lwp-admin-options.php:522
+msgid "The icon to show number of car spaces."
+msgstr "The icon to show number of car spaces."
+
+#: includes/admin/class-lwp-admin-options.php:534
+msgid "No Icon, use words \"Car Spaces\" instead"
+msgstr "No Icon, use words \"Car Spaces\" instead"
+
+#: includes/admin/class-lwp-admin-options.php:550
+msgid "Contact Form Settings"
+msgstr "Contact Form Settings"
+
+#: includes/admin/class-lwp-admin-options.php:555
+msgid "Email From"
+msgstr "Email From"
+
+#: includes/admin/class-lwp-admin-options.php:556
+msgid "The \"from\" address for all enquiry emails that are sent to Agents."
+msgstr "The \"from\" address for all enquiry emails that are sent to Agents."
+
+#: includes/admin/class-lwp-admin-options.php:560
+msgid ""
+"Contact form enquiries are sent directly to the selected Agent on that "
+"listing."
+msgstr ""
+"Contact form enquiries are sent directly to the selected Agent on that "
+"listing."
+
+#: includes/admin/class-lwp-admin-options.php:563
+msgid "Email From Name"
+msgstr "Email From Name"
+
+#: includes/admin/class-lwp-admin-options.php:564
+msgid "The \"from\" name for all enquiry emails that are sent to Agents."
+msgstr "The \"from\" name for all enquiry emails that are sent to Agents."
+
+#: includes/admin/class-lwp-admin-options.php:570
+msgid "CC"
+msgstr "CC"
+
+#: includes/admin/class-lwp-admin-options.php:571
+msgid "Extra email addresses that are CC'd on every enquiry (comma separated)."
+msgstr ""
+"Extra email addresses that are CC'd on every enquiry (comma separated)."
+
+#: includes/admin/class-lwp-admin-options.php:579
+msgid "BCC"
+msgstr "BCC"
+
+#: includes/admin/class-lwp-admin-options.php:580
+msgid ""
+"Extra email addresses that are BCC'd on every enquiry (comma separated)."
+msgstr ""
+"Extra email addresses that are BCC'd on every enquiry (comma separated)."
+
+#: includes/admin/class-lwp-admin-options.php:596
+msgid "Contact Form Email"
+msgstr "Contact Form Email"
+
+#: includes/admin/class-lwp-admin-options.php:602
+msgid "Email Type"
+msgstr "Email Type"
+
+#: includes/admin/class-lwp-admin-options.php:607
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/class-lwp-admin-options.php:608
+msgid "Plain Text"
+msgstr "Plain Text"
+
+#: includes/admin/class-lwp-admin-options.php:613
+msgid "Email Subject"
+msgstr "Email Subject"
+
+#: includes/admin/class-lwp-admin-options.php:617
+#: includes/class-lwp-contact-form.php:375
+msgid "New enquiry on listing #{listing_id}"
+msgstr "New enquiry on listing #{listing_id}"
+
+#: includes/admin/class-lwp-admin-options.php:620
+msgid "Email Message"
+msgstr "Email Message"
+
+#: includes/admin/class-lwp-admin-options.php:631
+#: includes/class-lwp-contact-form.php:386
+msgid "Hi {agent_name},"
+msgstr "Hi {agent_name},"
+
+#: includes/admin/class-lwp-admin-options.php:632
+#: includes/class-lwp-contact-form.php:387
+msgid "There has been a new enquiry on <strong>{listing_title}</strong>"
+msgstr "There has been a new enquiry on <strong>{listing_title}</strong>"
+
+#: includes/admin/class-lwp-admin-options.php:634
+#: includes/class-lwp-contact-form.php:388
+msgid "Name: {enquiry_name}"
+msgstr "Name: {enquiry_name}"
+
+#: includes/admin/class-lwp-admin-options.php:635
+#: includes/class-lwp-contact-form.php:389
+msgid "Email: {enquiry_email}"
+msgstr "Email: {enquiry_email}"
+
+#: includes/admin/class-lwp-admin-options.php:636
+#: includes/class-lwp-contact-form.php:390
+msgid "Phone: {enquiry_phone}"
+msgstr "Phone: {enquiry_phone}"
+
+#: includes/admin/class-lwp-admin-options.php:637
+#: includes/class-lwp-contact-form.php:391
+msgid "Message: {enquiry_message}"
+msgstr "Message: {enquiry_message}"
+
+#: includes/admin/class-lwp-admin-options.php:650
+msgid "Contact Form Messages"
+msgstr "Contact Form Messages"
+
+#: includes/admin/class-lwp-admin-options.php:656
+msgid "Success Message"
+msgstr "Success Message"
+
+#: includes/admin/class-lwp-admin-options.php:657
+msgid ""
+"The message that is displayed to users upon successfully sending a message."
+msgstr ""
+"The message that is displayed to users upon successfully sending a message."
+
+#: includes/admin/class-lwp-admin-options.php:660
+msgid "Thank you, the agent will be in touch with you soon."
+msgstr "Thank you, the agent will be in touch with you soon."
+
+#: includes/admin/class-lwp-admin-options.php:663
+msgid "Error Message"
+msgstr "Error Message"
+
+#: includes/admin/class-lwp-admin-options.php:664
+msgid "The message that is displayed if there is an error sending the message."
+msgstr ""
+"The message that is displayed if there is an error sending the message."
+
+#: includes/admin/class-lwp-admin-options.php:667
+msgid "There was an error. Please try again."
+msgstr "There was an error. Please try again."
+
+#: includes/admin/class-lwp-admin-options.php:670
+msgid "Include Error Code"
+msgstr "Include Error Code"
+
+#: includes/admin/class-lwp-admin-options.php:671
+msgid ""
+"Should the error code be shown with the error. Can be helpful for "
+"troubleshooting."
+msgstr ""
+"Should the error code be shown with the error. Can be helpful for "
+"troubleshooting."
+
+#: includes/admin/class-lwp-admin-options.php:675
+#: includes/admin/class-lwp-admin-options.php:736
+msgid "Yes"
+msgstr "Yes"
+
+#: includes/admin/class-lwp-admin-options.php:676
+#: includes/admin/class-lwp-admin-options.php:737
+msgid "No"
+msgstr "No"
+
+#: includes/admin/class-lwp-admin-options.php:691
+msgid "Template HTML"
+msgstr "Template HTML"
+
+#: includes/admin/class-lwp-admin-options.php:696
+msgid "Opening HTML Tag(s)"
+msgstr "Opening HTML Tag(s)"
+
+#: includes/admin/class-lwp-admin-options.php:697
+msgid ""
+"Used for theme compatability, this option will override the opening HTML for "
+"all Listings pages."
+msgstr ""
+"Used for theme compatability, this option will override the opening HTML for "
+"all Listings pages."
+
+#: includes/admin/class-lwp-admin-options.php:698
+#: includes/admin/class-lwp-admin-options.php:710
+msgid "This can help you to match the HTML with your current theme."
+msgstr "This can help you to match the HTML with your current theme."
+
+#: includes/admin/class-lwp-admin-options.php:708
+msgid "Closing HTML Tag(s)"
+msgstr "Closing HTML Tag(s)"
+
+#: includes/admin/class-lwp-admin-options.php:709
+msgid ""
+"Used for theme compatability, this option will override the closing HTML for "
+"all Listings pages."
+msgstr ""
+"Used for theme compatability, this option will override the closing HTML for "
+"all Listings pages."
+
+#: includes/admin/class-lwp-admin-options.php:725
+msgid "Uninstall"
+msgstr "Uninstall"
+
+#: includes/admin/class-lwp-admin-options.php:730
+msgid "Delete Data"
+msgstr "Delete Data"
+
+#: includes/admin/class-lwp-admin-options.php:731
+msgid "Should all plugin data be deleted upon uninstalling this plugin?"
+msgstr "Should all plugin data be deleted upon uninstalling this plugin?"
+
+#: includes/admin/class-lwp-admin-options.php:750 listings-wp.php:200
+msgid "Extensions"
+msgstr "Extensions"
+
+#: includes/admin/class-lwp-admin-options.php:755
+msgid ""
+"There are a number of premium extensions available at <a href=\"http://"
+"listings-wp.com\" target=\"_blank\">www.listings-wp.com</a> that will take "
+"your real estate website to the next level."
+msgstr ""
+"There are a number of premium extensions available at <a href=\"http://"
+"listings-wp.com\" target=\"_blank\">www.listings-wp.com</a> that will take "
+"your real estate website to the next level."
+
+#: includes/admin/class-lwp-admin-options.php:765
+msgid "Save Options"
+msgstr "Save Options"
+
+#: includes/admin/class-lwp-admin-options.php:770
+msgid "Publish?"
+msgstr "Publish?"
+
+#: includes/admin/class-lwp-admin-options.php:771
+msgid "Save These Options"
+msgstr "Save These Options"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: includes/admin/class-lwp-admin-options.php:785
+msgid "Listings WP"
+msgstr "Listings WP"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:70
+msgid "%s Description"
+msgstr "%s Description"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:77
+msgid "Tagline"
+msgstr "Tagline"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:84
+msgid "Main Description"
+msgstr "Main Description"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:122
+msgid "%s Details"
+msgstr "%s Details"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:131
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:175
+msgid "Numbers only."
+msgstr "Numbers only."
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:141
+msgid "Suffix"
+msgstr "Suffix"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:142
+msgid ""
+"Optional text to add after the price. Such as p/w or per month for rentals."
+msgstr ""
+"Optional text to add after the price. Such as p/w or per month for rentals."
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:149
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:156
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:164
+msgid " "
+msgstr " "
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:174
+msgid "Bedrooms"
+msgstr "Bedrooms"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:185
+msgid "Bathrooms"
+msgstr "Bathrooms"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:195
+#: templates/loop/at-a-glance.php:39
+#: templates/single-listing/at-a-glance.php:39
+msgid "Car Spaces"
+msgstr "Car Spaces"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:271
+msgid "Building Size"
+msgstr "Building Size"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:281
+msgid "Building Unit"
+msgstr "Building Unit"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:285
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:306
+msgid "Squares"
+msgstr "Squares"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:286
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:307
+msgid "Sq Mtr"
+msgstr "Sq Mtr"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:287
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:308
+msgid "Sq Ft"
+msgstr "Sq Ft"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:292
+msgid "Land Size"
+msgstr "Land Size"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:302
+msgid "Land Unit"
+msgstr "Land Unit"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:309
+msgid "Acres"
+msgstr "Acres"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:310
+msgid "Hectares"
+msgstr "Hectares"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:387
+msgid "Images"
+msgstr "Images"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:394
+msgid "Image Gallery"
+msgstr "Image Gallery"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:395
+msgid ""
+"The first image will be used as the main feature image. Drag and drop to re-"
+"order."
+msgstr ""
+"The first image will be used as the main feature image. Drag and drop to re-"
+"order."
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:400
+msgid "Add Images"
+msgstr "Add Images"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:465
+msgid "%s Address"
+msgstr "%s Address"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:473
+msgid "Find Address"
+msgstr "Find Address"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:479
+msgid "Type your address..."
+msgstr "Type your address..."
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:483
+msgid "Displayed Address"
+msgstr "Displayed Address"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:492
+msgid "Street Number"
+msgstr "Street Number"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:501
+msgid "Street Name"
+msgstr "Street Name"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:510
+msgid "City / Town / Locality"
+msgstr "City / Town / Locality"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:519
+msgid "Zip / Postal Code"
+msgstr "Post Code"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:528
+msgid "State"
+msgstr "State"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:546
+msgid "Latitude"
+msgstr "Latitude"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:555
+msgid "Longitude"
+msgstr "Longitude"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:586
+msgid "%s Settings"
+msgstr "%s Settings"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:603
+msgid "Hide Items"
+msgstr "Hide Items"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:604
+msgid "Allows you to hide items on the front end, even if they are filled in."
+msgstr "Allows you to hide items on the front end, even if they are filled in."
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:611
+msgid "Map"
+msgstr "Map"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:612
+#: includes/class-lwp-contact-form.php:73
+msgid "Contact Form"
+msgstr "Contact Form"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:640
+#: templates/loop/open-for-inspection.php:20
+#: templates/single-listing/open-for-inspection.php:20
+msgid "Open For Inspection"
+msgstr "Open For Inspection"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:651
+msgid "Open Time {#}"
+msgstr "Open Time {#}"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:652
+msgid "Add Open Time"
+msgstr "Add Open Time"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:653
+msgid "Remove Time"
+msgstr "Remove Time"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:662
+msgid "Day"
+msgstr "Day"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:668
+msgid "Start Time"
+msgstr "Start Time"
+
+#: includes/admin/metaboxes/class-lwp-metaboxes-listing.php:674
+msgid "End Time"
+msgstr "End Time"
+
+#: includes/admin/metaboxes/functions.php:108
+msgid "No Agent"
+msgstr "No Agent"
+
+#: includes/admin/metaboxes/functions.php:167
+msgid "Find"
+msgstr "Find"
+
+#: includes/admin/metaboxes/functions.php:168
+msgid "Reset"
+msgstr "Reset"
+
+#: includes/admin/metaboxes/functions.php:174
+msgid "Modify the marker's position by dragging it."
+msgstr "Modify the marker's position by dragging it."
+
+#: includes/class-lwp-agent.php:29
+msgid "Agent Profile Information"
+msgstr "Agent Profile Information"
+
+#: includes/class-lwp-agent.php:32
+msgid "Title/Position"
+msgstr "Title/Position"
+
+#: includes/class-lwp-agent.php:40
+msgid "Mobile/Cell Phone"
+msgstr "Mobile/Cell Phone"
+
+#: includes/class-lwp-agent.php:44
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/class-lwp-agent.php:48
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/class-lwp-agent.php:52
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: includes/class-lwp-agent.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/class-lwp-agent.php:60
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/class-lwp-agent.php:64 templates/agent/specialties.php:17
+msgid "Specialties"
+msgstr "Specialties"
+
+#: includes/class-lwp-agent.php:69 templates/agent/awards.php:17
+msgid "Awards"
+msgstr "Awards"
+
+#: includes/class-lwp-contact-form.php:105
+msgid "Name*"
+msgstr "Name*"
+
+#: includes/class-lwp-contact-form.php:115
+msgid "Email*"
+msgstr "Email*"
+
+#: includes/class-lwp-contact-form.php:125
+msgid "Phone Number"
+msgstr "Phone Number"
+
+#: includes/class-lwp-contact-form.php:135
+msgid "Message*"
+msgstr "Message*"
+
+#: includes/class-lwp-contact-form.php:186
+msgid "Enquiry on listing #%s"
+msgstr "Enquiry on listing #%s"
+
+#: includes/class-lwp-contact-form.php:227
+msgid "Contact Agent"
+msgstr "Contact Agent"
+
+#: includes/class-lwp-contact-form.php:272
+msgid "Security check failed."
+msgstr "Security check failed."
+
+#: includes/class-lwp-install.php:159
+msgid "Success! Listings WP is up and running."
+msgstr "Success! Listings WP is up and running."
+
+#: includes/class-lwp-install.php:160
+msgid ""
+"Step 1. Please go through each tab below, configure the options and "
+"<strong>hit the save button</strong>."
+msgstr ""
+"Step 1. Please go through each tab below, configure the options and "
+"<strong>hit the save button</strong>."
+
+#: includes/class-lwp-install.php:161
+msgid ""
+"Step 2. Add your first Listing by navigating to <strong>Listings > New "
+"Listing</strong>"
+msgstr ""
+"Step 2. Add your first Listing by navigating to <strong>Listings > New "
+"Listing</strong>"
+
+#: includes/class-lwp-post-status.php:25
+msgctxt "post"
+msgid "Archive"
+msgstr "Archive"
+
+#: includes/class-lwp-post-status.php:31
+msgid "Archive <span class=\"count\">(%s)</span>"
+msgid_plural "Archived <span class=\"count\">(%s)</span>"
+msgstr[0] "Archive <span class=\"count\">(%s)</span>"
+msgstr[1] "Archived <span class=\"count\">(%s)</span>"
+
+#: includes/class-lwp-post-status.php:48 includes/class-lwp-post-status.php:60
+#: includes/class-lwp-post-status.php:81
+msgid "Archived"
+msgstr "Archived"
+
+#: includes/class-lwp-post-types.php:47
+msgctxt "listing post type name"
+msgid "%2$s"
+msgstr "%2$s"
+
+#: includes/class-lwp-post-types.php:48
+msgctxt "singular listing post type name"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: includes/class-lwp-post-types.php:49 includes/class-lwp-post-types.php:91
+msgid "New %1s"
+msgstr "New %1s"
+
+#: includes/class-lwp-post-types.php:50 includes/class-lwp-post-types.php:92
+msgid "Add New %1$s"
+msgstr "Add New %1$s"
+
+#: includes/class-lwp-post-types.php:51 includes/class-lwp-post-types.php:93
+msgid "Edit %1$s"
+msgstr "Edit %1$s"
+
+#: includes/class-lwp-post-types.php:52 includes/class-lwp-post-types.php:94
+msgid "New %1$s"
+msgstr "New %1$s"
+
+#: includes/class-lwp-post-types.php:53 includes/class-lwp-post-types.php:95
+msgid "%2$s"
+msgstr "%2$s"
+
+#: includes/class-lwp-post-types.php:54 includes/class-lwp-post-types.php:96
+msgid "View %1$s"
+msgstr "View %1$s"
+
+#: includes/class-lwp-post-types.php:55 includes/class-lwp-post-types.php:97
+msgid "Search %2$s"
+msgstr "Search %2$s"
+
+#: includes/class-lwp-post-types.php:56 includes/class-lwp-post-types.php:98
+msgid "No %2$s found"
+msgstr "No %2$s found"
+
+#: includes/class-lwp-post-types.php:57 includes/class-lwp-post-types.php:99
+msgid "No %2$s found in Trash"
+msgstr "No %2$s found in Trash"
+
+#: includes/class-lwp-post-types.php:59
+msgctxt "listing post type menu name"
+msgid "%2$s"
+msgstr "%2$s"
+
+#: includes/class-lwp-post-types.php:60 includes/class-lwp-post-types.php:102
+msgid "Filter %2$s list"
+msgstr "Filter %2$s list"
+
+#: includes/class-lwp-post-types.php:61 includes/class-lwp-post-types.php:103
+msgid "%2$s list navigation"
+msgstr "%2$s list navigation"
+
+#: includes/class-lwp-post-types.php:62 includes/class-lwp-post-types.php:104
+msgid "%2$s list"
+msgstr "%2$s list"
+
+#: includes/class-lwp-post-types.php:89
+msgctxt "enquiry post type name"
+msgid "%2$s"
+msgstr "%2$s"
+
+#: includes/class-lwp-post-types.php:90
+msgctxt "singular enquiry post type name"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: includes/class-lwp-post-types.php:101
+msgctxt "enquiry post type menu name"
+msgid "%2$s"
+msgstr "%2$s"
+
+#: includes/class-lwp-post-types.php:108
+msgid "Enquiry"
+msgstr "Enquiry"
+
+#: includes/class-lwp-roles.php:26
+msgid "Listings WP Agent"
+msgstr "Listings WP Agent"
+
+#: includes/class-lwp-search.php:46
+msgid "Min Price"
+msgstr "Min Price"
+
+#: includes/class-lwp-search.php:53
+msgid "Max Price"
+msgstr "Max Price"
+
+#: includes/class-lwp-search.php:60
+msgid "Min Beds"
+msgstr "Min Beds"
+
+#: includes/class-lwp-search.php:67
+msgid "Max Beds"
+msgstr "Max Beds"
+
+#: includes/class-lwp-search.php:84
+msgid "Address, Suburb, Region, Zip or Landmark"
+msgstr "Address, Suburb, Region, Zip or Landmark"
+
+#: includes/class-lwp-search.php:117
+msgid "Buy"
+msgstr "Buy"
+
+#: includes/frontend/template-tags.php:211
+msgid "Search Results %s"
+msgstr "Search Results %s"
+
+#: includes/frontend/template-tags.php:214
+msgid "&nbsp;&ndash; Page %s"
+msgstr "&nbsp;&ndash; Page %s"
+
+#: includes/libraries/cmb2/includes/CMB2.php:143
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr "Metabox configuration is required to have an ID parameter."
+
+#: includes/libraries/cmb2/includes/CMB2.php:493
+msgid "Click to toggle"
+msgstr "Click to toggle"
+
+#: includes/libraries/cmb2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr "Please Try Again"
+
+#: includes/libraries/cmb2/includes/CMB2_Ajax.php:179
+msgid "Remove Embed"
+msgstr "Remove Embed"
+
+#. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
+#: includes/libraries/cmb2/includes/CMB2_Ajax.php:187
+#: includes/libraries/cmb2/includes/helper-functions.php:105
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr "No oEmbed Results Found for %1$s. View more info at %2$s."
+
+#: includes/libraries/cmb2/includes/CMB2_Base.php:406
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%1$s\" "
+"parameter."
+msgstr ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%1$s\" "
+"parameter."
+
+#: includes/libraries/cmb2/includes/CMB2_Base.php:410
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%1$s\" parameter."
+msgstr ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%1$s\" parameter."
+
+#: includes/libraries/cmb2/includes/CMB2_Base.php:440
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+
+#: includes/libraries/cmb2/includes/CMB2_Base.php:442
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+
+#: includes/libraries/cmb2/includes/CMB2_Base.php:475
+#: includes/libraries/cmb2/includes/types/CMB2_Type_Base.php:149
+msgid "Invalid %1$s property: %2$s"
+msgstr "Invalid %1$s property: %2$s"
+
+#: includes/libraries/cmb2/includes/CMB2_Base.php:490
+#: includes/libraries/cmb2/includes/types/CMB2_Type_Base.php:133
+msgid "Invalid %1$s method: %2$s"
+msgstr "Invalid %1$s method: %2$s"
+
+#: includes/libraries/cmb2/includes/CMB2_Field.php:1156
+msgid "Add Group"
+msgstr "Add Group"
+
+#: includes/libraries/cmb2/includes/CMB2_Field.php:1157
+msgid "Remove Group"
+msgstr "Remove Group"
+
+#: includes/libraries/cmb2/includes/CMB2_Field.php:1179
+#: includes/libraries/cmb2/includes/CMB2_Field.php:1183
+msgid "None"
+msgstr "None"
+
+#: includes/libraries/cmb2/includes/CMB2_Field.php:1244
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr "Sorry, this field does not have a cmb_id specified."
+
+#: includes/libraries/cmb2/includes/CMB2_Field_Display.php:428
+#: includes/libraries/cmb2/includes/CMB2_JS.php:165
+#: includes/libraries/cmb2/includes/types/CMB2_Type_File_Base.php:78
+msgid "File:"
+msgstr "File:"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:105
+#: includes/libraries/cmb2/includes/CMB2_JS.php:145
+msgid "Clear"
+msgstr "Clear"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:106
+msgid "Default"
+msgstr "Default"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:107
+msgid "Select Color"
+msgstr "Select Color"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:108
+msgid "Current Color"
+msgstr "Current Color"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:135
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr "mm/dd/yy"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:136
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:137
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "Su, Mo, Tu, We, Th, Fr, Sa"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:138
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:139
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:140
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:141
+msgid "Next"
+msgstr "Next"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:142
+msgid "Prev"
+msgstr "Prev"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:143
+msgid "Today"
+msgstr "Today"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:144
+#: includes/libraries/cmb2/includes/CMB2_JS.php:154
+msgid "Done"
+msgstr "Done"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:148
+msgid "Choose Time"
+msgstr "Choose Time"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:149
+msgid "Time"
+msgstr "Time"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:150
+msgid "Hour"
+msgstr "Hour"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:151
+msgid "Minute"
+msgstr "Minute"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:152
+msgid "Second"
+msgstr "Second"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:153
+msgid "Now"
+msgstr "Now"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:155
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr "hh:mm TT"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:161
+msgid "Use this file"
+msgstr "Use this file"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:162
+msgid "Use these files"
+msgstr "Use these files"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:163
+#: includes/libraries/cmb2/includes/types/CMB2_Type_File_Base.php:63
+msgid "Remove Image"
+msgstr "Remove Image"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:164
+#: includes/libraries/cmb2/includes/CMB2_Types.php:409
+#: includes/libraries/cmb2/includes/types/CMB2_Type_File_Base.php:83
+msgid "Remove"
+msgstr "Remove"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:166
+#: includes/libraries/cmb2/includes/types/CMB2_Type_File_Base.php:81
+msgid "Download"
+msgstr "Download"
+
+#: includes/libraries/cmb2/includes/CMB2_JS.php:167
+msgid "Select / Deselect All"
+msgstr "Select / Deselect All"
+
+#: includes/libraries/cmb2/includes/CMB2_Types.php:228
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr "Custom CMB2 field type classes must extend CMB2_Type_Base."
+
+#: includes/libraries/cmb2/includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr "Add Row"
+
+#: includes/libraries/cmb2/includes/CMB2_hookup.php:153
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+
+#: includes/libraries/cmb2/includes/CMB2_hookup.php:157
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr "Term metaboxes configuration requires a \"taxonomies\" parameter."
+
+#: includes/libraries/cmb2/includes/CMB2_hookup.php:404
+msgid "Toggle panel: %s"
+msgstr "Toggle panel: %s"
+
+#: includes/libraries/cmb2/includes/helper-functions.php:303
+msgid "Save"
+msgstr "Save"
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr "This box does not have read permissions."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:275
+msgid "This box does not have write permissions."
+msgstr "This box does not have write permissions."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:296
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:372
+msgid "A human-readable description of the object."
+msgstr "A human-readable description of the object."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:379
+msgid "The id for the object."
+msgstr "The id for the object."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:386
+msgid "The title for the object."
+msgstr "The title for the object."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr "Includes the registered fields for the box in the response."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr "No boxes found."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+"Includes the box object which the fields are registered to in the response."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:295
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:308
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:335
+msgid "No field found by that id."
+msgstr "No field found by that id."
+
+#: includes/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:407
+msgid "Value Error for %s"
+msgstr "Value Error for %s"
+
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:24
+msgid "The register_routes() method must be overriden"
+msgstr "The register_routes() method must be overriden"
+
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:34
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:44
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:54
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:64
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:74
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:84
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:94
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:104
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:114
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:124
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:134
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:145
+msgid "Method '%s' not implemented. Must be over-ridden in subclass."
+msgstr "Method '%s' not implemented. Must be over-ridden in subclass."
+
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:248
+msgid "Current page of the collection."
+msgstr "Current page of the collection."
+
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:256
+msgid "Maximum number of items to be returned in result set."
+msgstr "Maximum number of items to be returned in result set."
+
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:265
+msgid "Limit results to those matching a string."
+msgstr "Limit results to those matching a string."
+
+#: includes/libraries/cmb2/includes/shim/WP_REST_Controller.php:283
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+"Scope under which the request is made; determines fields present in response."
+
+#: includes/libraries/cmb2/includes/types/CMB2_Type_File.php:40
+msgid "Add or Upload File"
+msgstr "Add or Upload File"
+
+#: includes/libraries/cmb2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr "Add or Upload Files"
+
+#: includes/libraries/cmb2/includes/types/CMB2_Type_Taxonomy_Multicheck.php:28
+#: includes/libraries/cmb2/includes/types/CMB2_Type_Taxonomy_Radio.php:25
+msgid "No terms"
+msgstr "No terms"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:27
+msgid "Repeating Field Group using a Grid"
+msgstr "Repeating Field Group using a Grid"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:31
+#: includes/libraries/cmb2-grid/Test/Test.php:105
+msgid "Test Text"
+msgstr "Test Text"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:32
+#: includes/libraries/cmb2-grid/Test/Test.php:38
+#: includes/libraries/cmb2-grid/Test/Test.php:106
+#: includes/libraries/cmb2-grid/Test/Test.php:112
+#: includes/libraries/cmb2-grid/Test/Test.php:118
+#: includes/libraries/cmb2-grid/Test/Test.php:124
+#: includes/libraries/cmb2-grid/Test/Test.php:130
+msgid "field description (optional)"
+msgstr "field description (optional)"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:37
+#: includes/libraries/cmb2-grid/Test/Test.php:111
+msgid "Test Text Small"
+msgstr "Test Text Small"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:48
+msgid "Entry {#}"
+msgstr "Entry {#}"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:49
+msgid "Add Another Entry"
+msgstr "Add Another Entry"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:50
+msgid "Remove Entry"
+msgstr "Remove Entry"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:55
+msgid "Entry Title"
+msgstr "Entry Title"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:60
+msgid "Description"
+msgstr "Description"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:61
+msgid "Write a short description for this entry"
+msgstr "Write a short description for this entry"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:101
+msgid "Test Metabox using a Grid"
+msgstr "Test Metabox using a Grid"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:117
+msgid "Test Text Medium"
+msgstr "Test Text Medium"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:123
+msgid "Website URL"
+msgstr "Website URL"
+
+#: includes/libraries/cmb2-grid/Test/Test.php:129
+msgid "Test Text Email"
+msgstr "Test Text Email"
+
+#: includes/libraries/cmb2-metatabs/code/cmb2_metatabs_options.php:1007
+msgid "Settings updated."
+msgstr "Settings updated."
+
+#: includes/libraries/cmb2-metatabs/example.php:93
+msgid "Internet Doggies"
+msgstr "Internet Doggies"
+
+#: includes/libraries/cmb2-metatabs/example.php:97
+msgid "That's a Good Dog!"
+msgstr "That's a Good Dog!"
+
+#: includes/libraries/cmb2-metatabs/example.php:98
+msgid "What do you say when you see a dog on the internet?"
+msgstr "What do you say when you see a dog on the internet?"
+
+#: includes/libraries/cmb2-metatabs/example.php:103
+#: includes/libraries/cmb2-metatabs/example.php:124
+msgid "Repeated How Many Times?"
+msgstr "Repeated How Many Times?"
+
+#: includes/libraries/cmb2-metatabs/example.php:104
+#: includes/libraries/cmb2-metatabs/example.php:125
+msgid "To the nearest multiple 3, how many times do you say it?"
+msgstr "To the nearest multiple 3, how many times do you say it?"
+
+#: includes/libraries/cmb2-metatabs/example.php:114
+msgid "Internet Kitties"
+msgstr "Internet Kitties"
+
+#: includes/libraries/cmb2-metatabs/example.php:118
+msgid "Nice kitty!"
+msgstr "Nice kitty!"
+
+#: includes/libraries/cmb2-metatabs/example.php:119
+msgid "What do you say when you see a cat on the internet?"
+msgstr "What do you say when you see a cat on the internet?"
+
+#: includes/libraries/cmb2-metatabs/example.php:135
+msgid "Eating for Good Health"
+msgstr "Eating for Good Health"
+
+#: includes/libraries/cmb2-metatabs/example.php:139
+msgid "What is a healthy food?"
+msgstr "What is a healthy food?"
+
+#: includes/libraries/cmb2-metatabs/example.php:140
+msgid "Examples: Apple, Ding Dong"
+msgstr "Examples: Apple, Ding Dong"
+
+#: includes/libraries/cmb2-metatabs/example.php:145
+msgid "How Many Servings?"
+msgstr "How Many Servings?"
+
+#: includes/libraries/cmb2-metatabs/example.php:146
+msgid "How many times per day should you eat this?"
+msgstr "How many times per day should you eat this?"
+
+#: includes/libraries/cmb2-metatabs/example.php:156
+msgid "Foods to Avoid"
+msgstr "Foods to Avoid"
+
+#: includes/libraries/cmb2-metatabs/example.php:160
+msgid "What is an unhealthy food?"
+msgstr "What is an unhealthy food?"
+
+#: includes/libraries/cmb2-metatabs/example.php:161
+msgid "Examples: Apple, not Ding Dong"
+msgstr "Examples: Apple, not Ding Dong"
+
+#: includes/libraries/cmb2-metatabs/example.php:166
+msgid "How Many Pushups?"
+msgstr "How Many Pushups?"
+
+#: includes/libraries/cmb2-metatabs/example.php:167
+msgid ""
+"To the nearest 1, how many pushups do you need to counter your bad decision?"
+msgstr ""
+"To the nearest 1, how many pushups do you need to counter your bad decision?"
+
+#: includes/libraries/cmb2-metatabs/example.php:177
+msgid "Judging"
+msgstr "Judging"
+
+#: includes/libraries/cmb2-metatabs/example.php:183
+msgid "This example page offers no judgment on your choices."
+msgstr "This example page offers no judgment on your choices."
+
+#: listings-wp.php:59 listings-wp.php:63
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: listings-wp.php:196
+msgid "View Documentation"
+msgstr "View Documentation"
+
+#: listings-wp.php:196
+msgid "Docs"
+msgstr "Docs"
+
+#: listings-wp.php:200
+msgid "View Extensions"
+msgstr "View Extensions"
+
+#: templates/agent/listings.php:13
+msgid "Agents Listings"
+msgstr "Agents Listings"
+
+#: templates/archive-listing.php:70
+msgid "Sorry, no listings were found."
+msgstr "Sorry, no listings were found."
+
+#: templates/loop/at-a-glance.php:27
+#: templates/single-listing/at-a-glance.php:27
+msgid "Bedroom"
+msgstr "Bedroom"
+
+#: templates/loop/at-a-glance.php:33
+#: templates/single-listing/at-a-glance.php:33
+msgid "Bathroom"
+msgstr "Bathroom"
+
+#: templates/loop/orderby.php:20
+msgid "Newest Listings"
+msgstr "Newest Listings"
+
+#: templates/loop/orderby.php:21
+msgid "Oldest Listings"
+msgstr "Oldest Listings"
+
+#: templates/loop/orderby.php:22
+msgid "Price (Low to High)"
+msgstr "Price (Low to High)"
+
+#: templates/loop/orderby.php:23
+msgid "Price (High to Low)"
+msgstr "Price (High to Low)"
+
+#: templates/single-listing/agent-details.php:24
+msgid "Agent Details"
+msgstr "Agent Details"
+
+#: templates/single-listing/contact-form.php:13
+msgid "Quick Contact"
+msgstr "Quick Contact"
+
+#. Description of the plugin/theme
+msgid "A Real Estate Listings plugin for WordPress."
+msgstr "A Real Estate Listings plugin for WordPress."
+
+#. Author URI of the plugin/theme
+msgid "https://listings-wp.com"
+msgstr "https://listings-wp.com"
